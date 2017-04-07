@@ -1,0 +1,11 @@
+- name: Humwar
+  image: /images/cretex/panels/humwar/Tile 3 DAY 2ba.jpg
+
+- name: Langar
+  image: /images/cretex/panels/langar/Tile 6_new.jpg
+
+- name: Taluq
+  image: /images/cretex/panels/taluq/Tile 5a_new.jpg
+
+- name: zalabari
+  image: /images/cretex/panels/zalabari/Tile 4a_new.jpg

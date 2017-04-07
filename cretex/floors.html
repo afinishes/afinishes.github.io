@@ -1,0 +1,49 @@
+---
+layout: pages
+permalink: /cretex/floors/
+metaTitle: Floors
+title: Floors
+sectionTitle: Floors
+menu: floors
+description: Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam. Nulla ac nisi rhoncus,
+---
+        <!--page title start-->
+        <section class="page-title ptb-50">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>{{ page.title }}</h2>
+                        <ol class="breadcrumb">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="{{site.baseurl}}/cretex/">Cretex</a></li>
+                            <li><a href="#">{{ page.sectionTitle }}</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--page title end-->
+
+
+
+        <section class="section-padding">
+            <div class="container">
+
+              <div class="text-center mb-50">
+                  <h2 class="section-title">{{ page.title }}</h2>
+                  <p class="section-sub">{{ page.description }}</p>
+              </div>
+
+              <div class="portfolio-container text-center">
+
+                  <div class="portfolio portfolio-with-title col-3 gutter mtb-50">
+                    {% for item in site.data.floors %}
+                      {% include portfolio-item.html item=item %}
+                    {% endfor %}
+                      
+                  </div><!-- /.portfolio -->
+
+              </div><!-- portfolio-container -->
+
+            </div><!-- /.container -->
+        </section>
