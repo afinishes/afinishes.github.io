@@ -1,0 +1,11 @@
+- name: Releifs
+  image: /images/cretex/reliefs/chattaa/3.jpg
+  link: /cretex/releifs/
+
+- name: Panels
+  image: /images/cretex/panels/taluq/Tile%205a_new.jpg
+  link: /cretex/panels/
+
+- name: Floors
+  image: /images/cretex/floors/hexa/Tile 9.jpg
+  link: /cretex/floors/
