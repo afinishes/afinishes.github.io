@@ -1071,6 +1071,7 @@ Responsive Menu
     }
     .tt-nav.nav-center-align .logo-brand img  {
         margin: 0;
+        height: 40px;
     }
 
     .boxed .wrapper,
