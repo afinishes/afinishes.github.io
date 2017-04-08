@@ -2,8 +2,11 @@
     <div class="portfolio-wrapper">
 
         <div class="thumb">
+            <a href="{{ include.item.link }}">
             <div class="bg-overlay brand-overlay"></div>
+            
             <img src="{{ include.item.image }}" alt="">
+            </a>
 
             <div class="portfolio-intro">
             <div class="action-btn">
@@ -15,7 +18,6 @@
 
         <div class="portfolio-title">
             <h2><a href="#">{{ include.item.name }}</a></h2>
-            <p><a href="#">web Design</a> </p>
         </div>
 
     </div><!-- /.portfolio-wrapper -->
