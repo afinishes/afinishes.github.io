@@ -1,11 +1,15 @@
 - name: Hexa
   image: /images/cretex/floors/hexa/Tile 8 New2.jpg
-  link: /cretex/reliefs/hexa/
+  link: /cretex/floors/hexa/
 
 - name: Octa
   image: /images/cretex/floors/octa/Tile 10-25-3-2017.jpg
-  link: /cretex/reliefs/octa/
+  link: /cretex/floors/octa/
 
 - name: Penta
   image: /images/cretex/floors/penta/VIEW TILE 2Ab.jpg
-  link: /cretex/reliefs/penta/
+  link: /cretex/floors/penta/
+
+- name: Tri
+  image: /images/cretex/floors/tri/10-25-3-2017-2.jpg
+  link: /cretex/floors/tri/
