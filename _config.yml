@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Sophisticated Hand Crafted Concrete Tiles for walls and floors.
+title: Sophisticated Hand Crafted Concrete Tiles for walls & floors
 email: info@afinishes.com
 description: > # this means to ignore newlines until "baseurl:"
   We are architects who understand materials and how they work with your space, turning your imaginagion into reality.
