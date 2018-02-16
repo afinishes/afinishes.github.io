@@ -1,0 +1,48 @@
+---
+layout: pages
+permalink: /clients/
+metaTitle: Clients
+title: Clients
+sectionTitle: Clients
+menu: clients
+description: We help our clients from design, delivery and application of our tiles. See some of our projects below
+---
+        <!--page title start-->
+        <section class="page-title ptb-30">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>{{ page.title }}</h2>
+                        <ol class="breadcrumb">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="#">Clients</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--page title end-->
+
+
+
+        <section class="section-padding">
+            <div class="container">
+
+              <div class="text-center mb-50">
+                  <h2 class="section-title">{{ page.title }}</h2>
+                  <p class="section-sub">{{ page.description }}</p>
+              </div>
+
+              <div class="portfolio-container text-center">
+
+                  <div class="portfolio portfolio-with-title col-3 gutter mtb-50">
+                    {% for item in site.data.client %}
+                      {% include portfolio-item.html item=item %}
+                    {% endfor %}
+                      
+                  </div><!-- /.portfolio -->
+
+              </div><!-- portfolio-container -->
+
+            </div><!-- /.container -->
+        </section>
